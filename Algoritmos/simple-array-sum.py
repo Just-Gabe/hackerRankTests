@@ -13,8 +13,8 @@ import sys
 # Given an array of integers, find the sum of its elements.
 
 def simpleArraySum(ar):
-    sum = sum(ar)
-    return sum
+    total = sum(ar)
+    return total
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
